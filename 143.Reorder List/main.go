@@ -38,17 +38,5 @@ func reorderList(head *ListNode) {
 }
 
 func main() {
-	head := &ListNode{1, nil}
-	ptr := head
-	for i := 0; i < 3; i++ {
-		ptr.Next = &ListNode{i + 2, nil}
-		ptr = ptr.Next
-	}
-	// fmt.Println(split(head).Val);
-	reorderList(head)
-	// ptr = head;
-	// for ptr != nil {
-	//     fmt.Println(ptr.Val);
-	//     ptr = ptr.Next;
-	// }
+
 }
