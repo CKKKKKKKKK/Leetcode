@@ -4,3 +4,7 @@
 # Binaries for programs and plugins
 *.exe
 *.exe~
+**/main
+**/first
+**/second
+**/third
